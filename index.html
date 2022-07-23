@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>あいぼう水族館</title>
+  <!-- SEO -->
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- クローラー -->
+  <meta name="robots" content="noindex" />
+  <!-- css -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/chf2uxo.css">
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+  <header class="l-header p-header">
+    <div class="p-header__inner">
+      <h1 class="p-header__title">
+        <a href="/" class="p-header__logo">
+          <img src="/images/logo-white 1.svg" alt="">
+        </a>
+      </h1>
+      <div class="p-header__drawer c-hamburger js-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="p-header__pc-nav p-header-nav-pc">
+        <ul class="p-header-nav-pc-items">
+          <li class="p-header-nav-pc-item"><a href="#">お知らせ</a></li>
+          <li class="p-header-nav-pc-item"><a href="#">イベント</a></li>
+          <li class="p-header-nav-pc-item"><a href="#">館内案内</a></li>
+          <li class="p-header-nav-pc-item"><a href="#">料金</a></li>
+          <li class="p-header-nav-pc-item"><a href="#">アクセス</a></li>
+        </ul>
+      </nav>
+      <nav class="p-header__sp-nav p-header-nav-sp">
+        <ul class="p-header-nav-sp-items">
+          <li class="p-header-nav-sp-item"><a href="#">お知らせ</a></li>
+          <li class="p-header-nav-sp-item"><a href="#">イベント</a></li>
+          <li class="p-header-nav-sp-item"><a href="#">館内案内</a></li>
+          <li class="p-header-nav-sp-item"><a href="#">料金</a></li>
+          <li class="p-header-nav-sp-item"><a href="#">アクセス</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="l-mv p-mv">
+    <div class="p-mv__slider swiper js-mv-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide p-mv__img">
+          <img src="./images/mv-img-1.jpg" alt="">
+        </div>
+        <div class="swiper-slide p-mv__img">
+          <img src="./images/mv-img-2.jpg" alt="">
+        </div>
+        <div class="swiper-slide p-mv__img">
+          <img src="./images/mv-img-3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="p-mv__wrapper">
+      <h2 class="p-mv__title">
+        <img src="/images/mainvisual-title.png" alt="">
+      </h2>
+      <div class="p-mv__info p-mv-info">
+        <div class="p-mv-info__title">本日の営業時間</div>
+        <div class="p-mv-info__time"><span>10:00～19:00</span></div>
+        <p class="p-mv-info__text">最終入館は閉館の1時間前まで</p>
+        <div class="p-mv-info__btn">
+          <a href="#" class="c-btn">本日のイベント</a>
+        </div>
+        <div class="p-mv-info__btn">
+          <a href="#" class="c-btn">チケット購入</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="p-pickup">
+    <div class="p-pickup__slider swiper js-pickup-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide p-pickup__img">
+          <img src="./images/pickup-img1.jpg" alt="">
+        </div>
+        <div class="swiper-slide p-pickup__img">
+          <img src="./images/pickup-img3.jpg" alt="">
+        </div>
+        <div class="swiper-slide p-pickup__img">
+          <img src="./images/pickup-img4.jpg" alt="">
+        </div>
+        <div class="swiper-slide p-pickup__img">
+          <img src="./images/pickup-img5.jpg" alt="">
+        </div>
+        <div class="swiper-slide p-pickup__img">
+          <img src="./images/pickup-img2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="l-topic p-topic">
+    <div class="p-topic__inner l-inner">
+      <div class="p-topic__title c-section-title">
+        <h2 class="c-section-title__ja">重要なお知らせ</h2>
+        <span class="c-section-title__en">topic</span>
+      </div>
+      <p class="p-topic__heading">新型コロナ感染症対策について</p>
+      <ul class="p-topic__items">
+        <li class="p-topic__item">・出入り口にセンサーを設置し、入館者数、館内滞留者数をリアルタイムで把握しています。</li>
+        <li class="p-topic__item">・館内は、定期的に消毒をおこなっております。</li>
+        <li class="p-topic__item">・館内では、お客様同士、一定の間隔を保ってご観覧ください。<br>
+          　混雑時は、入館を制限させて頂く場合がございます。</li>
+        <li class="p-topic__item">・検温（37.5度以上の方の入場お断り）やマスク着用のお願いしています。</li>
+      </ul>
+    </div>
+  </section>
+  <section class="l-news p-news">
+    <div class="p-news__inner l-inner">
+      <div class="p-news__title c-section-title">
+        <h2 class="c-section-title__ja">お知らせ</h2>
+        <span class="c-section-title__en">news</span>
+      </div>
+      <div class="p-news__items">
+        <!-- ループ処理開始 -->
+        <div class="p-news__item p-news-content">
+          <div class="p-news-content__meta">
+            <div class="p-news-content__category">イベント</div>
+            <time datetime="2022-03-04" class="p-news-content__date">2022.06.02</time>
+          </div>
+          <div class="p-news-content__link">
+            <a href="#" class="p-news-content__text">シャチショーがグレードアップ！</a>
+          </div>
+        </div>
+        <!-- ループ終了 -->
+      </div>
+      <div class="p-news__btn">
+        <a href="" class="c-btn">一覧を見る</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-events p-events">
+    <div class="p-events__inner l-inner">
+      <div class="p-news__title c-section-title">
+        <h2 class="c-section-title__ja">イベント</h2>
+        <span class="c-section-title__en">events</span>
+      </div>
+      <div class="p-events__items">
+        <div class="p-events__item p-card">
+          <div class="p-card__img">
+            <img src="./images/events-img1.png" alt="">
+          </div>
+          <div class="p-card__body">
+            <h3 class="p-card__title">シャチショー</h3>
+            <p class="p-card__text">テーマは「シャチの可能性！！」です。<br>
+              シャチたちの運動能力と賢さについて、実験をおこないながら紹介します。
+            </p>
+            <p class="p-card__text">開催時間<br>
+              【平日】　11:00/13:30/16:00<br>
+              【土・日・祝日、夏休み等】　10:30/12:00/14:00/16:00
+            </p>
+            <p class="p-card__text">開催場所<br>
+              ショープール
+            </p>
+            <p class="p-card__text">所要時間<br>
+              約10分
+            </p>
+          </div>
+        </div>
+        <div class="p-events__item p-card">
+          <div class="p-card__img">
+            <img src="./images/events-img2.png" alt="">
+          </div>
+          <div class="p-card__body">
+            <h3 class="p-card__title">ペンギンふれあいタイム</h3>
+            <p class="p-card__text">ペンギンとのふれあいを楽しめます。間近で観察したり、さわることができます。<br>
+              記念撮影コーナーもあり、ペンギンと一緒に写真を撮ることができます。<br>
+              ※写真は有料となります。1枚1,000円。
+            </p>
+            <p class="p-card__text">開催時間<br>
+              【平日】　13:30<br>
+              【土・日・祝日、夏休み等】　14:00/16:00
+            </p>
+            <p class="p-card__text">開催場所<br>
+              ふれあいコーナー
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="p-events__btn">
+        <a href="" class="c-btn">一覧を見る</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-floormap p-floormap">
+    <div class="p-floormap__inner l-inner">
+      <div class="p-floormap__title c-section-title">
+        <h2 class="c-section-title__ja">館内案内</h2>
+        <span class="c-section-title__en">floormap</span>
+      </div>
+      <div class="p-floormap__contents">
+        <div class="p-floormap_content">
+          <img src="/images/floormap.png" alt="">
+        </div>
+        <div class="p-floormap_content">
+          <ul class="p-floormap__items">
+            <li class="p-floormap__item"><a href="#">
+                <img src="/images/floormap-img1.png" alt="">
+                <p class="p-floormap__text">熱帯魚コーナー</p>
+              </a></li>
+            <li class="p-floormap__item"><a href="#">
+                <img src="/images/floormap-img2.png" alt="">
+                <p class="p-floormap__text">ふれあいコーナー</p>
+              </a></li>
+            <li class="p-floormap__item"><a href="#">
+                <img src="/images/floormap-img3.png" alt="">
+                <p class="p-floormap__text">レストラン</p>
+              </a></li>
+            <li class="p-floormap__item"><a href="#">
+                <img src="/images/floormap-img4.png" alt="">
+                <p class="p-floormap__text">海中トンネル</p>
+              </a></li>
+            <li class="p-floormap__item"><a href="#">
+                <img src="/images/floormap-img5.png" alt="">
+                <p class="p-floormap__text">ショープール</p>
+              </a></li>
+            <li class="p-floormap__item"><a href="#">
+                <img src="/images/floormap-img6.png" alt="">
+                <p class="p-floormap__text">ペンギンコーナー</p>
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-price p-price">
+    <div class="p-price__inner l-inner">
+      <div class="p-price__title c-section-title">
+        <h2 class="c-section-title__ja">料金</h2>
+        <span class="c-section-title__en">price</span>
+      </div>
+      <!-- 料金表はtableで -->
+      <div class="p-price__heading">年間パスポート特典</div>
+      <p class="p-price__text">①館内のショップ(売店・レストラン)でレジにて会計から5％引き<br>
+        ②チケット窓口にて同伴者通常料金より10%割引<br>
+        ③年間で24回ご来場でオリジナルブロックのプレゼント</p>
+    </div>
+  </section>
+
+  <section class="l-access p-access">
+    <div class="p-access__inner l-inner">
+      <div class="p-access__contents">
+        <div class="p-access__title c-section-title">
+          <h2 class="c-section-title__ja">アクセス</h2>
+          <span class="c-section-title__en">access</span>
+        </div>
+        <div class="p-access__img">
+          <!-- GoogleMap埋め込み -->
+        </div>
+        <div class="p-access__info">
+          <p class="p-access__address">あいぼう水族館<br>
+            住所：東京都新宿区新宿３丁目３８−１<br>
+            電話番号:01-2345-XXXX
+          </p>
+          <p class="p-access__traffic">
+            電車でお越しのお客様<br>
+            中央線・山手線　新宿駅から徒歩1分<br>
+            西武新宿線　西武新宿駅から徒歩10分<br>
+            <br>
+            車でお越しのお客様<br>
+            首都高西新宿出入り口より１０分
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="l-footer p-footer">
+    <div class="p-footer__inner">
+      <nav class="p-footer__nav p-footer-nav">
+        <ul class="p-footer-nav__items">
+          <li class="p-footer-nav__item">
+            <a href="">会社概要</a>
+          </li>
+          <li class="p-footer-nav__item">
+            <a href="">安心・安全への取り組み</a>
+          </li>
+          <li class="p-footer-nav__item">
+            <a href="">プライバシーポリシー</a>
+          </li>
+          <li class="p-footer-nav__item">
+            <a href="">採用情報</a>
+          </li>
+          <li class="p-footer-nav__item">
+            <a href="">プレスリリース</a>
+          </li>
+          <li class="p-footer-nav__item">
+            <a href="">サイトマップ</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="p-footer__copyright">
+        <small>&copy;Ibow Aquarium. All Rights Reserved.</small>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
