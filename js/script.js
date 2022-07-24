@@ -45,6 +45,16 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
     return false;
   });
 
+  // スクロールするとロゴ画像変更
+    $(window).on("scroll", function () {
+      const sliderHeight = $(".p-mv").height();
+      if (sliderHeight - 20 < $(this).scrollTop()) {
+        $(".js-header").addClass("headerScroll");
+      } else {
+        $(".js-header").removeClass("headerScroll");
+      }
+  });
+
   //Swiper-mv
   var mvSwiper = new Swiper(".js-mv-swiper", {
     loop: true,

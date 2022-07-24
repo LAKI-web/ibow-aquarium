@@ -8,6 +8,6 @@
 }
 
 .p-pickup__img img {
-  width: 310px;
   height: rem(225);
+  object-fit: cover;
 }

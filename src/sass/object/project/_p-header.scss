@@ -14,6 +14,9 @@
   z-index: 99;
   background-color: rgba($color: $main, $alpha: .5)
 }
+.p-header__inner.headerScroll{
+  background-color: $white;
+}
 
 .p-header__title {
   width: 100%;
@@ -28,7 +31,17 @@
   justify-content: center;
 }
 
+.p-header__logo-img.headerScroll.-before {
+  display: none;
+}
 
+.p-header__logo-img.-after {
+  display: none;
+}
+
+.p-header__logo-img.headerScroll.-after {
+  display: block;
+}
 
 .p-header__pc-nav {
   width: 100%;

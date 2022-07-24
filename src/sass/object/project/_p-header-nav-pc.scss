@@ -11,6 +11,9 @@
   justify-content: space-between;
   color: $white;
 }
+.p-header-nav-pc__items.headerScroll{
+  color: $main;
+}
 
 .p-header-nav-pc__item {
   width: 100%;
@@ -35,4 +38,16 @@
   font-size: rem(14);
   font-weight: $bold;
   margin-top: rem(8);
+}
+
+.p-header-nav-pc__logo.headerScroll.-before {
+  display: none;
+}
+
+.p-header-nav-pc__logo.-after {
+  display: none;
+}
+
+.p-header-nav-pc__logo.headerScroll.-after {
+  display: block;
 }
