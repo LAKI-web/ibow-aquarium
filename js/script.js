@@ -24,12 +24,9 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
 
   //ドロワーメニュー
   $("#MenuButton").click(function () {
-    // $(".l-drawer-menu").toggleClass("is-show");
-    // $(".p-drawer-menu").toggleClass("is-show");
     $(".js-drawer-open").toggleClass("open");
     $(".drawer-menu").toggleClass("open");
     $("html").toggleClass("is-fixed");
-
   });
 
 
@@ -46,6 +43,17 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
       scrollTop: targetY
     }, time, 'swing');
     return false;
+  });
+
+  //Swiper-mv
+  var mvSwiper = new Swiper(".js-mv-swiper", {
+    loop: true,
+    effect: "fade",
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    speed: 2000,
   });
 
 });

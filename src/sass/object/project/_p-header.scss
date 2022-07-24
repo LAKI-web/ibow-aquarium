@@ -1,0 +1,38 @@
+@use 'global'as *;
+
+
+.p-header__inner{
+  width: 100%;
+  height: rem(140);
+  padding: 0 rem(48);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: rgba($color: $main, $alpha: .5)
+}
+
+.p-header__title {
+  width: 100%;
+  max-width: rem(433);
+  height: inherit;
+}
+
+.p-header__logo {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.p-header__pc-nav {
+  width: 100%;
+  max-width: rem(674);
+  padding-left: rem(40);
+}
+

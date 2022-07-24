@@ -1,0 +1,44 @@
+@use 'global'as *;
+
+.p-mv-info{
+background-color: rgba($color: $white, $alpha: .7);
+padding: rem(14);
+text-align: center;
+color: $main;
+border-radius: rem(20);
+}
+
+.p-mv-info__title{
+  width: 100%;
+  max-width: rem(210);
+font-size: rem(15);
+font-weight: $regular;
+line-height: 1;
+letter-spacing: 1.2px;
+border-bottom: 1px solid $main;
+padding-bottom: rem(12);
+}
+
+.p-mv-info__time{
+font-size: rem(25);
+font-weight: $bold;
+line-height: 1;
+letter-spacing: 1.47px;
+font-family: $number-font-family;
+}
+
+.p-mv-info__text{
+font-size: rem(10);
+font-weight: $regular;
+line-height: 1;
+}
+
+.p-mv-info__btn{
+width: 100%;
+max-width: rem(210);
+margin-top: rem(11);
+}
+
+.p-mv-info__btn a:nth-child(2){
+  margin-top: rem(10);
+}

@@ -16,9 +16,12 @@ $padding-sp: 20px;
 // フォント設定
 ////////////////////
 
-$base-font-family: "Noto Sans JP",sans-serif;
-$second-font-family: "cooper-black-std",serif;
-$number-font-family:"din-2014",sans-serif;
+$base-font-family: "Noto Sans JP",
+sans-serif;
+$second-font-family: "cooper-black-std",
+serif;
+$number-font-family:"din-2014",
+sans-serif;
 
 body {
   font-family: $base-font-family;
@@ -47,8 +50,7 @@ $red:#D80D0D;
 ////////////////////
 
 //ブレイクポイント
-$breakpoints: (
-  sm: 375,
+$breakpoints: (sm: 375,
   md: 767,
   lg: 1023,
   inner: strip-unit($inner),
@@ -88,17 +90,18 @@ $mediaquerys: (sm: "screen and (max-width: #{map-get($breakpoints,'sm')}px)",
 // 非表示設定
 ////////////////////
 
-//768px以上を表示
+//768px以上で表示
 .u-desktop {
-  display: none;
   @include mq("md") {
-    display: block;
+    display: none;
   }
 }
 
 //モバイルのみ表示
 .u-mobile {
+  display: none;
+
   @include mq("md") {
-    display: none;
+    display: block;
   }
 }
