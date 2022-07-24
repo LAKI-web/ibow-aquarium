@@ -55,5 +55,15 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
     },
     speed: 2000,
   });
+  //Swiper-pickup
+  var mvSwiper = new Swiper(".js-pickup-swiper", {
+    loop: true, // ループ有効
+    slidesPerView: 4.64, // 一度に表示する枚数
+    speed: 6000, // ループの時間
+    allowTouchMove: false, // スワイプ無効
+    autoplay: {
+      delay: 0, // 途切れなくループ
+    },
+  });
 
 });

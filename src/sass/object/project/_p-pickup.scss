@@ -1,0 +1,13 @@
+@use 'global'as *;
+
+.p-pickup {}
+
+/* スライドの動き等速 */
+.p-pickup .swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+.p-pickup__img img {
+  width: 310px;
+  height: rem(225);
+}
