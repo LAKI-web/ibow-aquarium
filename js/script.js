@@ -65,5 +65,4 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
       delay: 0, // 途切れなくループ
     },
   });
-
 });
